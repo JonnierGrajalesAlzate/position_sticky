@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 300vh;
+}
+
+.section{
+    height: 70vh;
+    background-image: linear-gradient(#3300319a, #0d043db3), url(https://th.bing.com/th/id/OIP.gXUp9dOp_MXsat-sSF_txgHaE8?pid=ImgDet&rs=1);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.titulo{
+    text-align: center;
+    line-height: 70vh;
+    font-size: 3rem;
+    color: wheat;
+}
+
+.nav{
+    background-color: #0d043db3;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav_link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
